@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor"
+    tools:context=".Activity.CustomerDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+    <EditText
+        android:id="@+id/customerNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:hint="Name"
+
+        />
+    <EditText
+        android:id="@+id/customerPhoneET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:hint="Phone"
+        />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home Location"
+                android:textSize="15sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose On Map"
+                android:textAllCaps="false"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:onClick="showOnMap"
+                android:id="@+id/chooseMap"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/mapColor"/>
+        </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:onClick="saveCustomer"
+        android:textColor="@color/colorBtn"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:padding="10dp"
+        />
+    </LinearLayout>
+</LinearLayout>

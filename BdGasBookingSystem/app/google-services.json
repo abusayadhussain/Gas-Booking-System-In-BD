@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "272715907472",
+    "firebase_url": "https://bdgasbooking.firebaseio.com",
+    "project_id": "bdgasbooking",
+    "storage_bucket": "bdgasbooking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272715907472:android:5f8daeca8f585b88",
+        "android_client_info": {
+          "package_name": "com.example.bdgasbookingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272715907472-pdka87sdhcpapdql3qp9t4in2s8rc1vk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bdgasbookingsystem",
+            "certificate_hash": "a09f8e38e8db1a1d435c6f2d8c5f6c7e362d059c"
+          }
+        },
+        {
+          "client_id": "272715907472-tnaidoq88ro5pptj8bohdle2r7b7jln6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXVFxwuH-h6l8iPhlHgOgOJqQeN6NkmmA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272715907472-tnaidoq88ro5pptj8bohdle2r7b7jln6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

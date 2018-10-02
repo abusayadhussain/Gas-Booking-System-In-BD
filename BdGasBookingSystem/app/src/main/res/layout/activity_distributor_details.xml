@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor"
+    tools:context=".Activity.DistributorDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+    <EditText
+        android:id="@+id/distributorNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:hint="Name"
+        />
+    <EditText
+        android:id="@+id/distributorPhoneET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:hint="Phone"
+        />
+    <EditText
+        android:id="@+id/shopNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:hint=" Shop Name"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shop Location"
+            android:textSize="15sp"
+            android:layout_margin="10dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose On Map"
+            android:textAllCaps="false"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:onClick="showOnMap"
+            android:textColor="@color/mapColor"
+            android:id="@+id/chooseMap"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Save"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:onClick="saveDistributor"
+        android:textColor="@color/colorBtn"
+        />
+
+    </LinearLayout>
+</LinearLayout>

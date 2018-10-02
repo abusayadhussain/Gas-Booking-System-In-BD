@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragment.DistributorProductListFrag"
+    android:background="@color/backgroundColor"
+    android:layout_margin="10dp">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/productList"
+        android:layout_marginTop="80dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="3dp">
+
+    </ListView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/productList"
+        android:layout_marginTop="80dp"
+        android:text="Tick to set the product available"
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+
+</RelativeLayout>
